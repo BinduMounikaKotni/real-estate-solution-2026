@@ -1,21 +1,28 @@
-# UCLA Admission Qualification Predictor
+# 🏠 Real Estate Price Predictor
 
 ## Project Overview
-This project predicts the probability of a student's admission to UCLA based on academic performance using a Machine Learning model.
+This project predicts house prices using a Machine Learning model based on property features such as number of bedrooms, square footage, location indicators, and financial attributes.
 
-The model is trained using features such as GRE Score, TOEFL Score, CGPA, SOP, LOR, and Research experience. A Neural Network (MLPRegressor) is used to perform regression and estimate the admission chance.
-
-The project is deployed as an interactive web application using Streamlit.
+The model is trained using a Random Forest Regressor and deployed as an interactive web application using Streamlit.
 
 ---
 
-## Features
-- Predict admission probability based on user input
+##  Features
+- Predict house price based on user input
 - Interactive Streamlit dashboard
-- Neural Network model (MLPRegressor)
+- Random Forest model
 - Modular code structure
-- Logging and error handling implemented
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+- app.py → Streamlit application  
+- main.py → Model training pipeline  
+- Source/ → Modular code files  
+- Models/ → Saved trained model  
+
+---
+
+## Installation
+```bash
+pip install -r requirements.txt
