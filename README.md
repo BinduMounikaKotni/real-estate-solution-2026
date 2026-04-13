@@ -1,5 +1,9 @@
 # 🏠 Real Estate Price Predictor
 
+
+## Github link
+https://github.com/BinduMounikaKotni/real-estate-solution-2026
+
 ## Project Overview
 This project predicts house prices using a Machine Learning model based on property features such as number of bedrooms, square footage, location indicators, and financial attributes.
 
